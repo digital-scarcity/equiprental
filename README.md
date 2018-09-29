@@ -1,7 +1,7 @@
 
 
 # Purpose
-This repo is designed to provide a step-by-step framework and example for creating a smart contract on EOS.
+This repo is designed to provide a step-by-step framework and example for creating a smart contract on EOS. It uses a simple use case of equipment rentals that list their equipment for rent and renters who pay rent for those items.
 
 # Process Steps
 Here are the general steps to developing a smart contract.
