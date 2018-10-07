@@ -41,7 +41,7 @@ docker logs -f equiprental_nodeosd_1
 ## To unlock wallet (use your password)
 You must unlock your wallet and import private key.
 ```
-docker exec -it equiprental_nodeosd_1 /opt/eosio/bin/cleos -u http://nodeosd:8888 --wallet-url http://keosd:8900 wallet unlock --password PW5K6tHhBdjD7JGK4jwJKNnduamH3GfwmgJjnkmGvSPokKtanDrt3
+docker exec -it equiprental_nodeosd_1 /opt/eosio/bin/cleos -u http://nodeosd:8888 --wallet-url http://keosd:8900 wallet unlock --password <<<>>
 
 cleos wallet import --private-key "5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3"
 ```
