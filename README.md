@@ -26,6 +26,8 @@ Define the actions, or state changes, that must exist in your smart contract
 You may want to update version inside the Dockerfile.
 ```
 docker-compose build
+docker volume create --name=nodeos-data-volume
+docker volume create --name=keosd-data-volume
 ```
 
 ## Run containers and open new terminal to view logs
